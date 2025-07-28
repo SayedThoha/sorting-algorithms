@@ -19,3 +19,12 @@ function selectionSort(arr) {
 }
 
 console.log(selectionSort(arr));
+
+
+/* 
+time complexity 
+best:o(n^2)
+average:o(n^2)
+worst: o(n^2)
+space complexity ; o(n)
+*/

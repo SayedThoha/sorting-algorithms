@@ -1,4 +1,4 @@
-let arr = [11, -2, 3, 4, 5 - 11, 4, 1, 0];
+let arr = [11, -2, 3, 4, 5, -11, 4, 1, 0];
 
 function bubbleSort(arr) {
   let len = arr.length;
@@ -13,5 +13,4 @@ function bubbleSort(arr) {
   return arr;
 }
 
-
-console.log(bubbleSort(arr))
+console.log(bubbleSort(arr));

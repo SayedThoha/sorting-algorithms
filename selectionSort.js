@@ -1,4 +1,4 @@
-let arr = [11, -2, 3, 4, 5 - 11, 4, 1, 0];
+let arr = [11, -2, 3, 4, 5 ,- 11, 4, 1, 0];
 
 function selectionSort(arr) {
   let len = arr.length;

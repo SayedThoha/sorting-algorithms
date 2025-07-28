@@ -14,3 +14,12 @@ function bubbleSort(arr) {
 }
 
 console.log(bubbleSort(arr));
+
+/*
+time complexity :
+best :o(n)
+avg:o(n^2)
+worst;o(n^2)
+
+space complexit: o(1)
+*/

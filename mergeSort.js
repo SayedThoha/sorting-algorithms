@@ -32,6 +32,5 @@ best :o(n log n)
 avg: o(n log n)
 worst: o(n log n)
 
-space complexity:
-o(n)
+space complexity: o(n)
 */

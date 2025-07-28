@@ -1,4 +1,4 @@
-let arr = [11, -2, 3, 4, 5 ,- 11, 4, 1, 0];
+let arr = [11, -2, 3, 4, 5, -11, 4, 1, 0];
 
 function selectionSort(arr) {
   let len = arr.length;
@@ -10,21 +10,21 @@ function selectionSort(arr) {
         minIndex = j;
       }
     }
-      if (minIndex !== i) {
-        [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
-      }
+    if (minIndex !== i) {
+      [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
     }
-  
+  }
+
   return arr;
 }
 
 console.log(selectionSort(arr));
 
-
 /* 
-time complexity 
+time complexity :
 best:o(n^2)
 average:o(n^2)
 worst: o(n^2)
-space complexity ; o(n)
+
+space complexity ; o(1)
 */
